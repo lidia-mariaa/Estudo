@@ -11,7 +11,7 @@ print("terminou")
 
 #nesse caso o < 10 é a condição, e no momento que ela se torna verdadeira a estrutura "while" deixa de executar o bloco de código
 
-#Obs.: += vai adicionar a uma variável o número outra variável
+#Obs.: += vai adicionar a uma variável um número, ou até mesmo o valor de outra variável
 
 print("_"*25,"\n","For:")
 
