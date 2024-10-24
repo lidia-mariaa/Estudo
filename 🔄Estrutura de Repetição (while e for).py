@@ -1,7 +1,10 @@
 print("_"*25,"\n","-> Loops:","\n","While:")
 
 #While:
-#É uma estrutura que permite repetir a execução de um bloco de código enquanto uma condição for verdadeira:
+#É uma estrutura que permite repetir a execução de um bloco de código enquanto uma condição for verdadeira.
+#O while pode se ler da seguinte forma: Enquanto tal condição for verdadeira o seguinte bloco de código se repetirá:
+
+#Exemplo:
 
 o = 1
 while o < 10:
@@ -23,10 +26,12 @@ i = "lídia", "louise", "mc"
 for x in i:
     print(x)
 
+#A variável 'i' vai funcionar como um contador de quantas vezes o bloco de código foi executado
 #No exemplo a estrutura "for" executa o bloco de código uma vez para cada item da sequência
 
 print("_"*25, "\n", "For: + range")
 #Range:
+#O for + o range se lê da seguinte forma: para a variável x no intervalo de (x, y, z):
 #É uma ferramenta que gera sequências de números inteiros e é usada principalmente para controlar loops:
 
 for y in range(5):
@@ -39,3 +44,10 @@ for y in range(5):
 
 for z in range(4,20,3):
     print(z)
+
+#Outro exemplo seria:
+
+for z in range(0,20,-1):
+    print(z)
+
+#Nesse caso a sequância será executada ao contrário
