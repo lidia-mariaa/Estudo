@@ -47,7 +47,7 @@ for z in range(4,20,3):
 
 #Outro exemplo seria:
 
-for z in range(0,20,-1):
+for z in range(20,0,-1):
     print(z)
 
 #Nesse caso a sequância será executada ao contrário
