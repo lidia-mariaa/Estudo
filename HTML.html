@@ -1,10 +1,6 @@
-
-
 <!DOCTYPE html>  -> o "<!DOCTYPE html>" serve para informar ao navegador qual é a versão do html
 
 <html>  -> essa é a tag primária de qualquer projeto, e tudo deve estar dentro dela
-
-  <h1>olá mundo</h1>  -> essa é uma tag de título, pode variar indo de h1 (o maior) até h6 (o menor)
   
   <head>  -> a tag "<head>" é onde vai ficar a "cabeça" do nosso site, onde vai ficar os meta-dados (dados que só vão aparecer para o navegador)
     <title>Quiz para programadores :D</title> -> este é o meta-dado de título
@@ -12,7 +8,17 @@
   </head>
   
   <body>  -> a tag "<body>" é onde vai ficar o "corpo" do nosso site, onde vai ficar os textos, títulos, imagens, etc. (dados que o usuário pode ver)
-    
+    <header>  -> As tags <header>, <main> e <footer> são tags semânticas, ou seja, elas não são tags de elementos e sim de organização. O <header> significa cabeçalho
+      <h1>Quiz de Programação</h1>  -> essa é uma tag de título, pode variar indo de h1 (o maior) até h6 (o menor), é interessanter ter somente 1 <h1> no seu código
+      <p>Testes seus conhecimentos!</p>  -> tag de parágrafo
+    </header>
+
+    <main>  -> Significa corpo de texto
+      <section> -> essa tag também é semântica e serve para dividir o nosso conteúdo em seções, assim não ficando tão vizualmente poluido
+        <h2>Sobre esse teste</h2>
+        <p><strong>Este quiz</strong> foi desenvolvido para testar seus <em>conhecimentos em programação</em>,então responda todas as perguntas e vamos ver se você é um bom programador!! :D</p>  -> Não se engane! A tag "<strong>" e a tag "<em>" não tags de estilização, afinal, fazemos a estilização do nosso site na liguagem CSS,
+      </section>
+    </main>
   </body>
 
 </html>
